@@ -1,357 +1,354 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8">
+		<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/main.css">
 	<title>Верстка</title>
 	<script src="js/jquery-3.6.0.min.js"></script>
-
+	<script src="js/main.js"></script>
 </head>
 
 <body id="body">
 	<header class="header">
-		<div class="wrapper">
-			<a href="/" class="logo">
-				<span class="logo__slogan"></span>
-			</a>
-			<div>
-				<nav class="navbar">
-					<ul class="menu menu-main">
-						<li class="menu-item">
-							<a href="#">Home</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Our work</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Pricing</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">FAQ</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Contacts</a>
-						</li>
+	<div class="wrapper">
+		<a href="/" class="logo">
+			<span class="logo__slogan"></span>
+		</a>
+		<div>
+			<nav class="navbar">
+	<ul class="menu menu-main">
+		<li class="menu-item">
+			<a href="#">Home</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">Our work</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">Pricing</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">FAQ</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">Contacts</a>
+		</li>
 
-						<li class="menu-item upload">
-							<a href="#" class="button--atlas">
-								<span>Upload footage</span>
-								<div class="marquee" aria-hidden="true">
-									<div class="marquee__inner">
-										<span>Upload footage</span>
-										<span>Upload footage</span>
-										<span>Upload footage</span>
-										<span>Upload footage</span>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="menu-item tracking">
-							<a href="#" class="button--atlas">
-								<span>Tracking</span>
-								<div class="marquee" aria-hidden="true">
-									<div class="marquee__inner">
-										<span>Tracking</span>
-										<span>Tracking</span>
-										<span>Tracking</span>
-										<span>Tracking</span>
-									</div>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="menu-item tracking hide-pc">
-				<a href="#" class="button--atlas">
-					<span>Tracking</span>
-					<div class="marquee" aria-hidden="true">
-						<div class="marquee__inner">
-							<span>Tracking</span>
-							<span>Tracking</span>
-							<span>Tracking</span>
-							<span>Tracking</span>
-						</div>
+		<li class="menu-item upload">
+			<a href="#" class="button--atlas">
+				<span>Upload footage</span>
+				<div class="marquee" aria-hidden="true">
+					<div class="marquee__inner">
+						<span>Upload footage</span>
+						<span>Upload footage</span>
+						<span>Upload footage</span>
+						<span>Upload footage</span>
 					</div>
-				</a>
-			</div>
-			<div class="burger">
-				<div class="burger__container">
-					<span></span>
-					<span></span>
-					<span></span>
 				</div>
-			</div>
+			</a>
+		</li>
+		<li class="menu-item tracking">
+			<a href="#" class="button--atlas">
+				<span>Tracking</span>
+				<div class="marquee" aria-hidden="true">
+					<div class="marquee__inner">
+						<span>Tracking</span>
+						<span>Tracking</span>
+						<span>Tracking</span>
+						<span>Tracking</span>
+					</div>
+				</div>
+			</a>
+		</li>
+	</ul>
+</nav>		</div>
+		<div class="menu-item tracking hide-pc">
+			<a href="#" class="button--atlas">
+				<span>Tracking</span>
+				<div class="marquee" aria-hidden="true">
+					<div class="marquee__inner">
+						<span>Tracking</span>
+						<span>Tracking</span>
+						<span>Tracking</span>
+						<span>Tracking</span>
+					</div>
+				</div>
+			</a>
 		</div>
-	</header>
-
-	<div class="page-inner">
-		<div class="wrapper">
-			<div class="screen-caption" data-aos="fade-right" data-aos-duration="1000">
-				<div class="screen-caption__main">Upload footage</div>
-				<div class="screen-caption__desc">Start your project here</div>
+		<div class="burger">
+			<div class="burger__container">
+				<span></span>
+				<span></span>
+				<span></span>
 			</div>
-
-			<div class="upload-form">
-				<div class="wpcf7">
-					<form class="wpcf7-form ">
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">1. Studio name</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="studioname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter your studio name"></span>
-							</div>
-						</fieldset>
-
-
-						<fieldset class="upload-fieldset upload-fieldset--checkbox required">
-							<span class="upload-title">2. Format video</span>
-							<span class="upload-subtitle">Check all that apply</span>
-							<span class="wpcf7-form-control-wrap">
-								<span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Teaser (1 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Teaser (1 min)</span>
-										</label>
-									</span><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Feature Clip (2—5 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Feature Clip (2—5 min)</span>
-										</label>
-									</span><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Highlight (6—10 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Highlight (6—10 min)</span>
-										</label>
-									</span><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Feature Film (11—20 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Feature Film (11—20 min)</span>
-										</label>
-									</span><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Long Feature (21—25 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Long Feature (21—25 min)</span>
-										</label>
-									</span><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Full Film (26—50 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Full Film (26—50 min)</span>
-										</label>
-									</span><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Long Film (51—80 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Long Film (51—80 min)</span>
-										</label>
-									</span><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Speeches (30—60 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Speeches (30—60 min)</span>
-										</label>
-									</span><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Ceremony Edit (30—60 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Ceremony Edit (30—60 min)</span>
-										</label>
-									</span><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Doc Edit (30—90 min)" checked="checked">
-											<span class="wpcf7-list-item-label">Doc Edit (30—90 min)</span>
-										</label>
-									</span></span></span>
-						</fieldset>
-
-						<fieldset class="upload-fieldset required">
-
-							<span class="upload-title">3. Rate your raw material on a scale of 1 to 10</span>
-							<div id="pips-range"></div>
-							<input id="pips-range-input" type="text" class="hidden" name="marerial_rate">
-
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">4. Link examples of your work</span>
-							<span class="upload-subtitle">To look at your work style</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="workexample1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Link example of your work"></span>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="workexample2" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Link example of your work"></span>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="workexample3" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Link example of your work"></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">5. Editing program</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="program" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter your studio name"></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">6. Cameras were used</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="cameras" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter camera models"></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">7. Duration of the video</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="duration" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter the duration of the video"></span>
-							</div>
-						</fieldset>
-
-
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">8. Names of newlyweds</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="newlyweds_names" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter names of newlyweds"></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">9. Font name for brides names</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="font_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter font name"></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">10. Couple's notes</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><textarea name="couple_notes" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter couple’s notes"></textarea></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">11. Videographer’s notes</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><textarea name="videograper_notes" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter videographer’s notes"></textarea></span>
-							</div>
-						</fieldset>
-
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">12. FPS for exported video</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="fps_export3ed" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter FPS for exported video"></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">13. Rendered video FullHD or 4k, Bitrate</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><textarea name="bitrate" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter video size, bitrate"></textarea></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">14. Examples of the color grading. Luts</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><textarea name="colorgrading" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter examples of the color grading"></textarea></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">15. Music choice</span>
-							<span class="upload-subtitle">Recommendations</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><textarea name="music" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter your recommendations about music"></textarea></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">16. Link with a footage</span>
-							<span class="upload-subtitle">Dropbox or GoogleDrive</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="footage" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Link your footage"></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<span class="upload-title">17. Size and number of the files (GB)</span>
-							<div>
-								<span class="wpcf7-form-control-wrap"><input type="text" name="file_size" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter size and numbers of the files"></span>
-							</div>
-						</fieldset>
-
-						<fieldset class="upload-fieldset upload-fieldset--checkbox required">
-							<span class="upload-title">18. Accelerated term of video editing during is possible 7 days</span>
-							<span class="upload-subtitle">For 40% of thepackage price</span>
-							<span class="wpcf7-form-control-wrap">
-								<span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first">
-										<label>
-											<input type="checkbox" name="checkbox_functional[]" value="Yes, I need this" checked="checked">
-											<span class="wpcf7-list-item-label">Yes, I need this</span>
-										</label>
-									</span></span></span>
-						</fieldset>
-
-						<fieldset class="upload-fieldset">
-							<button class="button button--orange button--atlas">
-								<span>Start your project</span>
-								<div class="marquee" aria-hidden="true">
-									<div class="marquee__inner">
-										<span>Start your project</span>
-										<span>Start your project</span>
-										<span>Start your project</span>
-										<span>Start your project</span>
-									</div>
-								</div>
-							</button>
-						</fieldset>
-					</form>
-				</div>
-			</div>
-
 		</div>
 	</div>
+</header>
+
+<div class="page-inner">
+    <div class="wrapper">
+        <div class="screen-caption" data-aos="fade-right" data-aos-duration="1000">
+            <div class="screen-caption__main">Upload footage</div>
+            <div class="screen-caption__desc">Start your project here</div>
+        </div>
+
+        <div class="upload-form">
+            <div class="wpcf7"><form class="wpcf7-form "><fieldset class="upload-fieldset">
+    <span class="upload-title">1. Studio name</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="studioname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter your studio name"></span>
+    </div>
+</fieldset>
 
 
-	<footer class="footer">
-		<div class="wrapper">
-			<div class="screen-caption" data-aos="fade-right" data-aos-duration="1000">
-				<div class="screen-caption__main">Contact us</div>
-				<div class="screen-caption__desc">Let us professionally edit for you</div>
+<fieldset class="upload-fieldset upload-fieldset--checkbox required">
+    <span class="upload-title">2. Format video</span>
+    <span class="upload-subtitle">Check all that apply</span>
+    <span class="wpcf7-form-control-wrap">
+			<span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Teaser (1 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Teaser (1 min)</span>
+					</label>
+				</span><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Feature Clip (2—5 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Feature Clip (2—5 min)</span>
+					</label>
+				</span><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Highlight (6—10 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Highlight (6—10 min)</span>
+					</label>
+				</span><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Feature Film (11—20 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Feature Film (11—20 min)</span>
+					</label>
+				</span><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Long Feature (21—25 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Long Feature (21—25 min)</span>
+					</label>
+				</span><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Full Film (26—50 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Full Film (26—50 min)</span>
+					</label>
+				</span><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Long Film (51—80 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Long Film (51—80 min)</span>
+					</label>
+				</span><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Speeches (30—60 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Speeches (30—60 min)</span>
+					</label>
+				</span><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Ceremony Edit (30—60 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Ceremony Edit (30—60 min)</span>
+					</label>
+				</span><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Doc Edit (30—90 min)" checked="checked">
+						<span class="wpcf7-list-item-label">Doc Edit (30—90 min)</span>
+					</label>
+				</span></span></span>
+</fieldset>
+
+<fieldset class="upload-fieldset required">
+
+    <span class="upload-title">3. Rate your raw material on a scale of 1 to 10</span>
+    <div id="pips-range"></div>
+    <input id="pips-range-input" type="text" class="hidden" name="marerial_rate">
+
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">4. Link examples of your work</span>
+    <span class="upload-subtitle">To look at your work style</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="workexample1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Link example of your work"></span>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="workexample2" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Link example of your work"></span>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="workexample3" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Link example of your work"></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">5. Editing program</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="program" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter your studio name"></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">6. Cameras were used</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="cameras" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter camera models"></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">7. Duration of the video</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="duration" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter the duration of the video"></span>
+    </div>
+</fieldset>
+
+
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">8. Names of newlyweds</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="newlyweds_names" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter names of newlyweds"></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">9. Font name for brides names</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="font_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter font name"></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">10. Couple's notes</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><textarea name="couple_notes" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter couple’s notes"></textarea></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">11. Videographer’s notes</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><textarea name="videograper_notes" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter videographer’s notes"></textarea></span>
+    </div>
+</fieldset>
+
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">12. FPS for exported video</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="fps_export3ed" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter FPS for exported video"></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">13. Rendered video FullHD or 4k, Bitrate</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><textarea name="bitrate" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter video size, bitrate"></textarea></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">14. Examples of the color grading. Luts</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><textarea name="colorgrading" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter examples of the color grading"></textarea></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">15. Music choice</span>
+    <span class="upload-subtitle">Recommendations</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><textarea name="music" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Enter your recommendations about music"></textarea></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">16. Link with a footage</span>
+    <span class="upload-subtitle">Dropbox or GoogleDrive</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="footage" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Link your footage"></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <span class="upload-title">17. Size and number of the files (GB)</span>
+    <div>
+        <span class="wpcf7-form-control-wrap"><input type="text" name="file_size" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Enter size and numbers of the files"></span>
+    </div>
+</fieldset>
+
+<fieldset class="upload-fieldset upload-fieldset--checkbox required">
+    <span class="upload-title">18. Accelerated term of video editing during is possible 7 days</span>
+    <span class="upload-subtitle">For 40% of thepackage price</span>
+    <span class="wpcf7-form-control-wrap">
+			<span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first">
+					<label>
+						<input type="checkbox" name="checkbox_functional[]" value="Yes, I need this" checked="checked">
+						<span class="wpcf7-list-item-label">Yes, I need this</span>
+					</label>
+				</span></span></span>
+</fieldset>
+
+<fieldset class="upload-fieldset">
+    <button class="button button--orange button--atlas">
+        <span>Start your project</span>
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee__inner">
+                <span>Start your project</span>
+                <span>Start your project</span>
+                <span>Start your project</span>
+                <span>Start your project</span>
+            </div>
+        </div>
+    </button>
+</fieldset></form></div>        </div>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+	<div class="wrapper">
+		<div class="screen-caption" data-aos="fade-right" data-aos-duration="1000">
+			<div class="screen-caption__main">Contact us</div>
+			<div class="screen-caption__desc">Let us professionally edit for you</div>
+		</div>
+		<div class="footer__top top-footer">
+			<div class="top-footer__form" data-aos="fade-right" data-aos-duration="500">
+				<div class="footer-form">
+					<div class="wpcf7"><form class="wpcf7-form "><span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Name"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="E-mail"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Phone number"></span> <span class="wpcf7-form-control-wrap"><textarea name="uname" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Message"></textarea></span> <button class="button button--orange button--atlas">
+    <span>Track my order</span>
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee__inner">
+            <span>Track my order</span>
+            <span>Track my order</span>
+            <span>Track my order</span>
+            <span>Track my order</span>
+        </div>
+    </div>
+</button></form></div>				</div>
 			</div>
-			<div class="footer__top top-footer">
-				<div class="top-footer__form" data-aos="fade-right" data-aos-duration="500">
-					<div class="footer-form">
-						<div class="wpcf7">
-							<form class="wpcf7-form "><span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Name"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="E-mail"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Phone number"></span> <span class="wpcf7-form-control-wrap"><textarea name="uname" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Message"></textarea></span> <button class="button button--orange button--atlas">
-									<span>Track my order</span>
-									<div class="marquee" aria-hidden="true">
-										<div class="marquee__inner">
-											<span>Track my order</span>
-											<span>Track my order</span>
-											<span>Track my order</span>
-											<span>Track my order</span>
-										</div>
-									</div>
-								</button></form>
-						</div>
-					</div>
-				</div>
-				<div class="top-footer__video video" id="backVideoFooter" data-aos="fade-left" data-aos-duration="500">
-					<!-- <img src="images/footer-image.png" width="" height="" alt=""> -->
-					<video class="video__video" autoplay muted loop preload="none" poster="images/footer-image.png">
-						<source src="images/video.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-					</video>
-					<canvas class="video__canvas"></canvas>
-				</div>
-			</div>
-			<div class="footer__bottom">
-				<div class="footer__copyright">© 2014—2022 EmStory.com | Made by Ukrainians in Poland</div>
-				<div class="footer__icons">
-					<div class="ico-heart-ua ico-footer"></div>
-					<div class="ico-heart-pl ico-footer"></div>
-				</div>
-				<div class="footer__weblamas">Developed by <a href="#" rel="nofollow">WebLamas</a></div>
+			<div class="top-footer__video video" id="backVideoFooter" data-aos="fade-left" data-aos-duration="500">
+				<!-- <img src="images/footer-image.png" width="" height="" alt=""> -->
+				<video class="video__video" autoplay muted loop preload="none" poster="images/footer-image.png">
+					<source src="images/video.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<canvas class="video__canvas"></canvas>
 			</div>
 		</div>
-	</footer>
+		<div class="footer__bottom">
+			<div class="footer__copyright">© 2014—2022 EmStory.com | Made by Ukrainians in Poland</div>
+			<div class="footer__icons">
+				<div class="ico-heart-ua ico-footer"></div>
+				<div class="ico-heart-pl ico-footer"></div>
+			</div>
+			<div class="footer__weblamas">Developed by <a href="#" rel="nofollow">WebLamas</a></div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init();
+  </script>
 	<button class="to-top-page"></button>
 
 	<div class="popup popup_video">
@@ -361,7 +358,6 @@
 		</div>
 	</div>
 
-		<script src="js/main.js"></script>
 </body>
 
 </html>

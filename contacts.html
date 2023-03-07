@@ -1,179 +1,178 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8">
+		<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/main.css">
 	<title>Верстка</title>
 	<script src="js/jquery-3.6.0.min.js"></script>
-
+	<script src="js/main.js"></script>
 </head>
 
 <body id="body">
 	<header class="header">
-		<div class="wrapper">
-			<a href="/" class="logo">
-				<span class="logo__slogan"></span>
+	<div class="wrapper">
+		<a href="/" class="logo">
+			<span class="logo__slogan"></span>
+		</a>
+		<div>
+			<nav class="navbar">
+	<ul class="menu menu-main">
+		<li class="menu-item">
+			<a href="#">Home</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">Our work</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">Pricing</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">FAQ</a>
+		</li>
+		<li class="menu-item">
+			<a href="#">Contacts</a>
+		</li>
+
+		<li class="menu-item upload">
+			<a href="#" class="button--atlas">
+				<span>Upload footage</span>
+				<div class="marquee" aria-hidden="true">
+					<div class="marquee__inner">
+						<span>Upload footage</span>
+						<span>Upload footage</span>
+						<span>Upload footage</span>
+						<span>Upload footage</span>
+					</div>
+				</div>
 			</a>
-			<div>
-				<nav class="navbar">
-					<ul class="menu menu-main">
-						<li class="menu-item">
-							<a href="#">Home</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Our work</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Pricing</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">FAQ</a>
-						</li>
-						<li class="menu-item">
-							<a href="#">Contacts</a>
-						</li>
-
-						<li class="menu-item upload">
-							<a href="#" class="button--atlas">
-								<span>Upload footage</span>
-								<div class="marquee" aria-hidden="true">
-									<div class="marquee__inner">
-										<span>Upload footage</span>
-										<span>Upload footage</span>
-										<span>Upload footage</span>
-										<span>Upload footage</span>
-									</div>
-								</div>
-							</a>
-						</li>
-						<li class="menu-item tracking">
-							<a href="#" class="button--atlas">
-								<span>Tracking</span>
-								<div class="marquee" aria-hidden="true">
-									<div class="marquee__inner">
-										<span>Tracking</span>
-										<span>Tracking</span>
-										<span>Tracking</span>
-										<span>Tracking</span>
-									</div>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="menu-item tracking hide-pc">
-				<a href="#" class="button--atlas">
-					<span>Tracking</span>
-					<div class="marquee" aria-hidden="true">
-						<div class="marquee__inner">
-							<span>Tracking</span>
-							<span>Tracking</span>
-							<span>Tracking</span>
-							<span>Tracking</span>
-						</div>
+		</li>
+		<li class="menu-item tracking">
+			<a href="#" class="button--atlas">
+				<span>Tracking</span>
+				<div class="marquee" aria-hidden="true">
+					<div class="marquee__inner">
+						<span>Tracking</span>
+						<span>Tracking</span>
+						<span>Tracking</span>
+						<span>Tracking</span>
 					</div>
-				</a>
-			</div>
-			<div class="burger">
-				<div class="burger__container">
-					<span></span>
-					<span></span>
-					<span></span>
 				</div>
-			</div>
+			</a>
+		</li>
+	</ul>
+</nav>		</div>
+		<div class="menu-item tracking hide-pc">
+			<a href="#" class="button--atlas">
+				<span>Tracking</span>
+				<div class="marquee" aria-hidden="true">
+					<div class="marquee__inner">
+						<span>Tracking</span>
+						<span>Tracking</span>
+						<span>Tracking</span>
+						<span>Tracking</span>
+					</div>
+				</div>
+			</a>
 		</div>
-	</header>
-
-	<div class="page-inner">
-		<div class="wrapper">
-			<div class="screen-caption" data-aos="fade-right" data-aos-duration="1000">
-				<div class="screen-caption__main">Contacts</div>
-				<div class="screen-caption__desc">We’d love to hear from you!</div>
-			</div>
-
-			<div class="contacts-body contacts">
-				<div class="contacts__form">
-					<div class="footer-form">
-						<div class="wpcf7">
-							<form class="wpcf7-form "><span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Name"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="E-mail"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Phone number"></span> <span class="wpcf7-form-control-wrap"><textarea name="uname" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Message"></textarea></span> <button class="button button--orange button--atlas">
-									<span>Contact us now</span>
-									<div class="marquee" aria-hidden="true">
-										<div class="marquee__inner">
-											<span>Contact us now</span>
-											<span>Contact us now</span>
-											<span>Contact us now</span>
-											<span>Contact us now</span>
-										</div>
-									</div>
-								</button></form>
-						</div>
-					</div>
-				</div>
-				<div class="contacts__info info-contacts">
-					<div class="info-contacts__body">
-						<div class="contacts__title">E-mail</div>
-						<a class="contact " href="mailto:info@emstory.com">info@emstory.com</a>
-						<div class="contacts__title">Phone</div>
-						<a class="contact" href="tel:+380660888971">+38(066) 088-89-71</a>
-						<div class="contacts__title">Messengers</div>
-						<div class="social-items">
-							<a href="#" class="social social_inst"></a>
-							<a href="#" class="social social_fb"></a>
-							<a href="#" class="social social_wha"></a>
-						</div>
-					</div>
-				</div>
+		<div class="burger">
+			<div class="burger__container">
+				<span></span>
+				<span></span>
+				<span></span>
 			</div>
 		</div>
 	</div>
+</header>
+
+<div class="page-inner">
+    <div class="wrapper">
+        <div class="screen-caption" data-aos="fade-right" data-aos-duration="1000">
+            <div class="screen-caption__main">Contacts</div>
+            <div class="screen-caption__desc">We’d love to hear from you!</div>
+        </div>
+
+        <div class="contacts-body contacts">
+            <div class="contacts__form">
+                <div class="footer-form">
+                    <div class="wpcf7"><form class="wpcf7-form "><span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Name"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="E-mail"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Phone number"></span> <span class="wpcf7-form-control-wrap"><textarea name="uname" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Message"></textarea></span> <button class="button button--orange button--atlas">
+    <span>Contact us now</span>
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee__inner">
+            <span>Contact us now</span>
+            <span>Contact us now</span>
+            <span>Contact us now</span>
+            <span>Contact us now</span>
+        </div>
+    </div>
+</button></form></div>                </div>
+            </div>
+            <div class="contacts__info info-contacts">
+                <div class="info-contacts__body">
+                    <div class="contacts__title">E-mail</div>
+                    <a class="contact " href="mailto:info@emstory.com">info@emstory.com</a>
+                    <div class="contacts__title">Phone</div>
+                    <a class="contact" href="tel:+380660888971">+38(066) 088-89-71</a>
+                    <div class="contacts__title">Messengers</div>
+                    <div class="social-items">
+                        <a href="#" class="social social_inst"></a>
+                        <a href="#" class="social social_fb"></a>
+                        <a href="#" class="social social_wha"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-	<footer class="footer">
-		<div class="wrapper">
-			<div class="screen-caption" data-aos="fade-right" data-aos-duration="1000">
-				<div class="screen-caption__main">Contact us</div>
-				<div class="screen-caption__desc">Let us professionally edit for you</div>
+<footer class="footer">
+	<div class="wrapper">
+		<div class="screen-caption" data-aos="fade-right" data-aos-duration="1000">
+			<div class="screen-caption__main">Contact us</div>
+			<div class="screen-caption__desc">Let us professionally edit for you</div>
+		</div>
+		<div class="footer__top top-footer">
+			<div class="top-footer__form" data-aos="fade-right" data-aos-duration="500">
+				<div class="footer-form">
+					<div class="wpcf7"><form class="wpcf7-form "><span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Name"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="E-mail"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Phone number"></span> <span class="wpcf7-form-control-wrap"><textarea name="uname" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Message"></textarea></span> <button class="button button--orange button--atlas">
+    <span>Track my order</span>
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee__inner">
+            <span>Track my order</span>
+            <span>Track my order</span>
+            <span>Track my order</span>
+            <span>Track my order</span>
+        </div>
+    </div>
+</button></form></div>				</div>
 			</div>
-			<div class="footer__top top-footer">
-				<div class="top-footer__form" data-aos="fade-right" data-aos-duration="500">
-					<div class="footer-form">
-						<div class="wpcf7">
-							<form class="wpcf7-form "><span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Name"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="E-mail"></span> <span class="wpcf7-form-control-wrap"><input type="text" name="uname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Phone number"></span> <span class="wpcf7-form-control-wrap"><textarea name="uname" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="false" aria-invalid="false" placeholder="Message"></textarea></span> <button class="button button--orange button--atlas">
-									<span>Track my order</span>
-									<div class="marquee" aria-hidden="true">
-										<div class="marquee__inner">
-											<span>Track my order</span>
-											<span>Track my order</span>
-											<span>Track my order</span>
-											<span>Track my order</span>
-										</div>
-									</div>
-								</button></form>
-						</div>
-					</div>
-				</div>
-				<div class="top-footer__video video" id="backVideoFooter" data-aos="fade-left" data-aos-duration="500">
-					<!-- <img src="images/footer-image.png" width="" height="" alt=""> -->
-					<video class="video__video" autoplay muted loop preload="none" poster="images/footer-image.png">
-						<source src="images/video.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-					</video>
-					<canvas class="video__canvas"></canvas>
-				</div>
-			</div>
-			<div class="footer__bottom">
-				<div class="footer__copyright">© 2014—2022 EmStory.com | Made by Ukrainians in Poland</div>
-				<div class="footer__icons">
-					<div class="ico-heart-ua ico-footer"></div>
-					<div class="ico-heart-pl ico-footer"></div>
-				</div>
-				<div class="footer__weblamas">Developed by <a href="#" rel="nofollow">WebLamas</a></div>
+			<div class="top-footer__video video" id="backVideoFooter" data-aos="fade-left" data-aos-duration="500">
+				<!-- <img src="images/footer-image.png" width="" height="" alt=""> -->
+				<video class="video__video" autoplay muted loop preload="none" poster="images/footer-image.png">
+					<source src="images/video.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+				<canvas class="video__canvas"></canvas>
 			</div>
 		</div>
-	</footer>
+		<div class="footer__bottom">
+			<div class="footer__copyright">© 2014—2022 EmStory.com | Made by Ukrainians in Poland</div>
+			<div class="footer__icons">
+				<div class="ico-heart-ua ico-footer"></div>
+				<div class="ico-heart-pl ico-footer"></div>
+			</div>
+			<div class="footer__weblamas">Developed by <a href="#" rel="nofollow">WebLamas</a></div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init();
+  </script>
 	<button class="to-top-page"></button>
 
 	<div class="popup popup_video">
@@ -183,7 +182,6 @@
 		</div>
 	</div>
 
-		<script src="js/main.js"></script>
 </body>
 
 </html>
